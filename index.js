@@ -46,9 +46,9 @@ class Trip{
     return this
   }
 
-  driver(){
-    return store.drivers.find(driver=>{
-      this.driverId===driver.id
-    })
+  driver() {
+    return store.drivers.find(driver => {
+      return driver.id === this.driverId;
+    });
   }
 }

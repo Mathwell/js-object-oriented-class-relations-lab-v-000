@@ -8,6 +8,9 @@ class Driver{
     this.id = driverId++;
     store.drivers.push(this);
   }
+  trips=function(){
+    return this
+  }
 }
 
 class Passenger{

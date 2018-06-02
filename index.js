@@ -8,7 +8,7 @@ class Driver{
     this.id = driverId++;
     store.drivers.push(this);
   }
-  trips=function(){
+  trips(){
     return this
   }
 }

@@ -1,5 +1,6 @@
 let driverID=0;
-let store={drivers: [], passengers: []};
+//let store={drivers: [], passengers: []};
+let store = {drivers: [], items: []}
 
 class Driver{
   constructor(name){

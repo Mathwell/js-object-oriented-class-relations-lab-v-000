@@ -1,4 +1,5 @@
 let driverID=0;
+let store={drivers:[],passengers:[]}
 
 class Driver{
   constructor(name){

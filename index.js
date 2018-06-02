@@ -1,4 +1,4 @@
-class Drivers{
+class Driver{
   constructor(name){
     this.name=name;
   }

@@ -11,6 +11,10 @@ class Driver{
   trips(){
     return this
   }
+
+  passengers(){
+    return this
+  }
 }
 
 class Passenger{
